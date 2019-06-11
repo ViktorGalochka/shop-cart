@@ -1,0 +1,47 @@
+:host {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.heading {
+	margin-top: 30px;
+	font-size: 2em;
+}
+
+.prod-grid {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 15px;
+}
+
+.product {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+	width: 20%;
+	margin: 15px 10px;
+	padding: 15px;
+	border: 1px solid #000;
+}
+
+.prod-name {
+	margin-top: 10px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.prod-price {
+	margin-top: 10px;
+}
+
+.buy {
+	margin-top: 10px;
+}
+
+.prod-pic {
+	width: 100px;
+}
